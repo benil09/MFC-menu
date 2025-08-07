@@ -14,8 +14,6 @@ A responsive and user-friendly food ordering interface built using **React + Vit
 
 - 🧭 Category-wise menu browsing
 - 🔥 Responsive layout (Mobile-first)
-- 🛒 Add to cart functionality
-- 📊 Product analytics/dashboard
 - 💅 Modern UI using Tailwind CSS
 - ⚛️ React Hooks & State Management
 - 📦 Fast bundling using Vite
@@ -28,9 +26,8 @@ A responsive and user-friendly food ordering interface built using **React + Vit
 - **Vite** – Fast bundler and dev server
 - **Tailwind CSS** – Utility-first CSS framework
 - **React Icons** – Icon library
-- **Axios** – API request handler
-- **Node.js/Express** – (_if backend exists_)
+
 
 ---
 
-## 📁 Folder Structure
+
