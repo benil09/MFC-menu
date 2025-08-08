@@ -20,7 +20,7 @@ export default function Footer() {
         {/* Column 3: Contact Info */}
         <div className="">
           <h2 className="text-lg font-semibold mb-2">Contact Us</h2>
-          <p className="text-sm text-gray-400">Email: support@baazar.com</p>
+          <p className="text-sm text-gray-400">Email: sunroshinek99@gmail.com</p>
           <p className="text-sm text-gray-400">Phone: +91 - 9617966188 </p>
           <h2 className="text-lg mt-6 font-semibold mb-2">Follow Us</h2>
           <div className="social flex ">
