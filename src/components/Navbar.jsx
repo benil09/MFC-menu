@@ -2,14 +2,15 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md px-4 py-3 md:px-8">
+    <nav className="bg-black shadow-md px-4 py-3 md:px-8">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold text-orange-600">
-          MFC
+          <img src={logo} alt="logo" className="h-10 w-auto object-contain rounded-md shadow-md" />
         </Link>
 
         {/* Buttons */}

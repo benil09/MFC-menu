@@ -18,7 +18,7 @@ const HomePage = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl mx-6 font-bold text-gray-800"
         >
-          MFC <span className="font-sans text-amber-600"> Bestseller </span> menu
+          MFC <span className="font-sans  text-amber-500"> Bestseller </span> menu
         </motion.h1>
       </header>
       <div className="p-2 flex flex-wrap justify-center gap-2 w-full mt-4">

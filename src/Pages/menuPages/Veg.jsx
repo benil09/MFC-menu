@@ -1,6 +1,7 @@
 import React from 'react'
 import { menuData } from '../../constants/menu'
 import VegImage from "../../assets/veg.png"
+import { motion } from "framer-motion";
 
 const Veg = () => {
   return (
@@ -12,7 +13,12 @@ const Veg = () => {
           className="w-72 h-72 opacity-100  object-contain scale-90 hover:scale-100 transition-transform duration-500"
         />
       </div>
-      <table className="relative z-10 min-w-full text-black bg-white/40 bg-gradient-to-br from-orange-50 via-yellow-100 to-amber-100 opacity-70 rounded-lg">
+      <motion.table
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="relative z-10 min-w-full text-black bg-white/40 bg-gradient-to-br from-orange-50 via-yellow-100 to-amber-100 opacity-70 rounded-lg"
+      >
         <thead>
           <tr className="bg-orange-200 text-left">
             <th className="px-4 py-2 border-b">Item</th>
@@ -27,7 +33,7 @@ const Veg = () => {
             </tr>
           ))}
         </tbody>
-      </table>
+      </motion.table>
     </div>
   )
 }
