@@ -39,6 +39,12 @@ const HomePage = () => {
           </button>
         ))}
       </div>
+      <div
+        className="mt-4 text-center text-sm font-medium text-red-600 px-4 py-2 rounded-md "
+        
+      >
+        Note: 5% GST will be additionally charged
+      </div>
       <div className="mt-6">
         {isActive === "Veg" && <Veg />}
         {isActive === "NonVeg" && <NonVeg />}
