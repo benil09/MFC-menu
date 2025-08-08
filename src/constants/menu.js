@@ -38,6 +38,7 @@ export const menuData = {
     { name: "Blackcurrant Shake", price: 179 },
     { name: "Butterscotch Cold Coffee", price: 189 },
     { name: "Hazelnut Chocolate Shake", price: 249 },
+    
   ],
   iceCream: {
     startingAt: 69,
